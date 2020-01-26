@@ -8,12 +8,12 @@ import (
 type TV struct {
 	BackdropPath string `json:"backdrop_path"`
 	CreatedBy    []struct {
-		ID          int
-		Name        string
+		ID          int    `json:"id"`
+		Name        string `json:"name"`
 		CreditID    string `json:"credit_id"`
 		Gender      int    `json:"gender"`
 		ProfilePath string `json:"profile_path"`
-	}
+	} `json:"created_by"`
 	EpisodeRunTime []int  `json:"episode_run_time"`
 	FirstAirDate   string `json:"first_air_date"`
 	Genres         []struct {
