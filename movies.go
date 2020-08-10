@@ -339,6 +339,7 @@ type MovieTranslations struct {
 			Title    string `json:"title,omitempty"`
 			Overview string `json:"overview,omitempty"`
 			Homepage string `json:"homepage,omitempty"`
+			Tagline  string `json:"tagline,omitempty"`
 		} `json:"data"`
 	}
 	AlternativeTitles *MovieAlternativeTitles `json:"alternative_titles,omitempty"`

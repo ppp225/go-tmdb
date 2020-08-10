@@ -256,6 +256,7 @@ type TvTranslations struct {
 			Name     string `json:"name,omitempty"`
 			Overview string `json:"overview,omitempty"`
 			Homepage string `json:"homepage,omitempty"`
+			Tagline  string `json:"tagline,omitempty"`
 		} `json:"data"`
 	}
 }
